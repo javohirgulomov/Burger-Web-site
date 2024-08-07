@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto
+}
+
+.header-1 {
+    background-color: rgb(45, 44, 44);
+    width: 100%;
+    height: 30px;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
+.tb {
+    color: white;
+}
+
+.tb-2 {
+    display: flex;
+    gap: 12px;
+    color: white;
+}
+
+.text-deco {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.header-2 {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.cover-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-deco-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.text-deco-2:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+
+.street-text {
+    display: flex;
+    gap: 15px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #393636;
+}
+.back-img img {
+    width: 100%;
+    height: auto;
+}
+
+.text-on-img {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    color: #69CF17;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 84.53px;
+    text-align: left;
+}
+
+.text-on-img-2 {
+    position: absolute;
+    top: 35%;
+    left: 18.5%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    color: #69CF17;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+.text-on-img-3 {
+    position: absolute;
+    top: 47%;
+    left: 42.2%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.price {
+    position: absolute;
+    top: 59%;
+    left: 13.40%;
+    width: 200px;
+    height: 85px;
+    background-color: #69CF17;
+    opacity: 0.7;
+}
+
+.price-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: right;
+}
+
+.button {
+    position: absolute;
+    top: 64.5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 255px;
+    height: 51px;
+    background-color:#69CF17;
+    border-radius: 5px;
+    border: none;
+}
+
+.card {
+    width: 360px;
+    height: 524px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+.card-burger {
+    padding: 15px;
+}
+
+.card-burger-text {
+    padding-left: 15px;
+    color: white;
+    font-weight:700;
+    Size:19px;
+    Line-height:15px;
+}
+
+.card-burger-text-2 {
+    color: white;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.back-color {
+    background-color: #393636;
+}
+
+.map {
+    width:100%; 
+    height:400px;
+}
+
+.filial {
+    margin-top: 5px;
+}
+
+.filial-text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #69CF17;
+}
+
+.footer {
+    width: 100%;
+    height: 270px;
+    background: rgb(105,207,23);
+    background: -moz-radial-gradient(circle, rgba(105,207,23,1) 50%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(105,207,23,1) 50%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(105,207,23,1) 50%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#69cf17",endColorstr="#000000",GradientType=1);
+}
+
+.last-section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-list {
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    gap: 50px;
+}
+
+.last-text-deco-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 55px;
+}
